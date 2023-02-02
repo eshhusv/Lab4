@@ -40,9 +40,9 @@ namespace Lab4
 
         public override string? ToString()
         {
-            return $"Id: {Id}" +
-                $"Name: {Name}" +
-                $"Cost: {Cost}";
+            return $"Id: {Id} " +
+                $"Name: {Name} " +
+                $"Cost: {Cost} ";
         }
     }
 }
